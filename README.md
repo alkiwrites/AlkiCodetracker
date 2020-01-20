@@ -1,2 +1,2 @@
-# AlkiCodetracker
-PHPbase issue tracker forsoftware development. Free Version.
+# AlkiTracker
+Simple highly restrictive but function version of my very own Issue Tracker.
