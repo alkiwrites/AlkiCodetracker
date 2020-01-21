@@ -1,2 +1,3 @@
 # AlkiTracker
-Simple highly restrictive but function version of my very own Issue Tracker.
+Highly restrictive yet powerful version of my very own Issue Tracker.
+PHP + MySQL
