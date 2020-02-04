@@ -1,20 +1,18 @@
 <?php 
  session_start();  // inciamos la session
+    // includes
     include('vistas/parciales/cabeza.php');
     include('controladores\conexion.php');
     include('controladores\funciones.php');
 
-          // parse id
-         $id_tracker     = mysqli_real_escape_string($conn , $_GET['id']);
-        $id     = $_SESSION['id']; 
+        // parse id  
+        $id_tracker  = mysqli_real_escape_string($conn , $_GET['id']);
+        $id     = $_SESSION['id'];  // includes
         $nombre = $_SESSION['nombre']; 
         $email  = $_SESSION['email']; 
 
-
-        
-    // includes
+    // nav usert
     include('vistas/parciales/nav_user.php');
-
 
     // el sql como un limite de uno
     $query = "SELECT * FROM trackers WHERE id=? LIMIT 1;"; // make query
